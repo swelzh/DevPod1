@@ -7,6 +7,7 @@
 //
 
 #import "MXViewController.h"
+#import <DevPod1-Prefix.pch>
 
 @interface MXViewController ()
 

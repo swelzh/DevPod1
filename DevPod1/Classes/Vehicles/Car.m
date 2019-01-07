@@ -9,8 +9,4 @@
 
 @implementation Car
 
-- (void)run {
-    NSLog(@"The car runs");
-}
-
 @end

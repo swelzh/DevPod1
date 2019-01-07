@@ -1,7 +1,7 @@
 {
   "name": "DevPod1",
   "version": "0.1.0",
-  "summary": "A short description of DevPod1.",
+  "summary": "这句描述也是没有意义s的",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/swelzh/DevPod1",
   "license": {
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DevPod1/Classes/**/*"
+  "source_files": "DevPod1/Classes/**/*",
+  "frameworks": "UIKit"
 }
