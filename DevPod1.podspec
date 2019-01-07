@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DevPod1'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '这句描述也是没有意义s的'
 
 # This description is used to generate tags and improve search results.
