@@ -1,5 +1,5 @@
 PODS:
-  - DevPod1 (0.1.0)
+  - DevPod1 (0.1.2)
 
 DEPENDENCIES:
   - DevPod1 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DevPod1: c5021be19834c2458da4ec79ab26fd1e3d279875
+  DevPod1: 2b5bc9d7cd58dae5eb2b8419c0c2dca08d268455
 
 PODFILE CHECKSUM: af39fa432fad9945a8d7086c614e4f3ae64ba4bc
 
