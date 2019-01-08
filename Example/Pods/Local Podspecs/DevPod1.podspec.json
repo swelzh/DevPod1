@@ -19,17 +19,14 @@
     "ios": "8.0"
   },
   "source_files": "DevPod1/**/*",
+  "resources": "DevPod1/Resources/**/*.{png,xib,bundle,xcassets}",
+  "vendored_libraries": "Resources/lib/**/*.{a}",
+  "vendored_frameworks": "Resources/Framework/**/*.{framework}",
   "public_header_files": "DevPod1/Interface/**/*.h,DevPod1/Classes/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
 
     ]
-  },
-  "libraries": [
-    "iconv",
-    "sqlite3",
-    "stdc++",
-    "z"
-  ]
+  }
 }
