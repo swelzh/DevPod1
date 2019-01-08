@@ -15,7 +15,7 @@
 #import "Car.h"
 #import "Vehicle.h"
 #import "DevPod1.h"
-#import "UMSAgent.h"
+#import "TestLib.h"
 
 FOUNDATION_EXPORT double DevPod1VersionNumber;
 FOUNDATION_EXPORT const unsigned char DevPod1VersionString[];
