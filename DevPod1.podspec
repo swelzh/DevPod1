@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'DevPod1' => ['DevPod1/Assets/*.png']
   # }
 
-#   s.public_header_files = 'DevPod1/Classes/**/*.h'
+   s.public_header_files = 'DevPod1/Classes/**/*.h'
    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
