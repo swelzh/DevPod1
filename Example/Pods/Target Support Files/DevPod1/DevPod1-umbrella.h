@@ -10,8 +10,11 @@
 #endif
 #endif
 
+#import "Animals.h"
+#import "NetworkUtil.h"
 #import "Car.h"
 #import "Vehicle.h"
+#import "DevPod1.h"
 
 FOUNDATION_EXPORT double DevPod1VersionNumber;
 FOUNDATION_EXPORT const unsigned char DevPod1VersionString[];

@@ -1,16 +1,33 @@
 PODS:
-  - DevPod1 (0.1.2)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DevPod1 (0.1.2):
+    - AFNetworking
 
 DEPENDENCIES:
   - DevPod1 (from `../`)
 
 EXTERNAL SOURCES:
   DevPod1:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  DevPod1: 2b5bc9d7cd58dae5eb2b8419c0c2dca08d268455
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DevPod1: 59a5e18c3d4007bbf167605a50cb692796c2711c
 
 PODFILE CHECKSUM: af39fa432fad9945a8d7086c614e4f3ae64ba4bc
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.4.0

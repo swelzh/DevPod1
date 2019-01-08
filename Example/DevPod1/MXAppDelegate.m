@@ -7,12 +7,18 @@
 //
 
 #import "MXAppDelegate.h"
+#import "DevPod1.h"
+#import "Car.h"
+
 
 @implementation MXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Car *car= [[Car alloc] init];
+    
+    
     return YES;
 }
 

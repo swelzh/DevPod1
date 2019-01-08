@@ -7,7 +7,6 @@
 //
 
 #import "MXViewController.h"
-#import <DevPod1-Prefix.pch>
 
 @interface MXViewController ()
 
@@ -19,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DevPod1/Classes/**/*'
+  s.source_files = 'DevPod1/**/*'
   
   # s.resource_bundles = {
   #   'DevPod1' => ['DevPod1/Assets/*.png']
   # }
 
-   s.public_header_files = 'DevPod1/Classes/**/*.h'
+   s.public_header_files = 'DevPod1/Interface/**/*.h,DevPod1/Classes/**/*.h'
    s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking' 
+   s.libraries =  'iconv','sqlite3','stdc++','z'
 end
