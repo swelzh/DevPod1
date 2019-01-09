@@ -9,4 +9,12 @@
 
 @implementation Animals
 
+- (void)walk{
+    NSLog(@"Animals walk");
+}
+
+- (void)fly{
+    NSLog(@"Animals fly");
+}
+
 @end
