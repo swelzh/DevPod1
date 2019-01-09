@@ -1,6 +1,6 @@
 {
   "name": "DevPod1",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "这句描述也是没有意义s的",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/swelzh/DevPod1",
@@ -13,16 +13,14 @@
   },
   "source": {
     "git": "https://github.com/swelzh/DevPod1.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DevPod1/**/*",
-  "resources": "DevPod1/Resources/**/*.{png,xib,bundle,xcassets}",
-  "vendored_libraries": "Resources/lib/**/*.{a}",
-  "vendored_frameworks": "Resources/Framework/**/*.{framework}",
-  "public_header_files": "DevPod1/Interface/**/*.h,DevPod1/Classes/**/*.h",
+  "source_files": "DevPod1/**/*.{h,m}",
+  "vendored_libraries": "DevPod1/Resources/Libs/**/*.a",
+  "public_header_files": "DevPod1/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [

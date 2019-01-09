@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'DevPod1'
-    s.version          = '0.1.2'
+    s.version          = '0.1.3'
     s.summary          = '这句描述也是没有意义s的'
     
     # This description is used to generate tags and improve search results.
@@ -30,16 +30,17 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     
-    s.source_files = 'DevPod1/**/*'
-    s.resource  = 'DevPod1/Resources/**/*.{png,xib,bundle,xcassets}'
+    s.source_files = 'DevPod1/**/*.{h,m}'
+    # s.resource  = 'DevPod1/Resources/**/*.{png,xib,bundle,xcassets}'
     # s.resource_bundles = {
     #   'DevPod1' => ['DevPod1/Assets/*.png']
     # }
     
-    s.vendored_libraries  = 'Resources/lib/**/*.{a}'
-    s.vendored_frameworks = 'Resources/Framework/**/*.{framework}'
+    s.vendored_libraries  = 'DevPod1/Resources/Libs/**/*.a'
+    # s.vendored_frameworks = 'Resources/Framework/**/*.{framework}'
     
-    s.public_header_files = 'DevPod1/Interface/**/*.h,DevPod1/Classes/**/*.h'
+#    s.public_header_files = 'DevPod1/Interface/*.h'
+s.public_header_files = 'DevPod1/**/*.h'
     s.frameworks = 'UIKit'
     s.dependency 'AFNetworking'
 end
