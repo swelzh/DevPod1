@@ -36,11 +36,11 @@ Pod::Spec.new do |s|
     #   'DevPod1' => ['DevPod1/Assets/*.png']
     # }
     
-    s.vendored_libraries  = 'DevPod1/Resources/Libs/**/*.a'
+    s.vendored_libraries  = 'DevPod1/Classes/Libs/**/*.a'
     # s.vendored_frameworks = 'Resources/Framework/**/*.{framework}'
     
 #    s.public_header_files = 'DevPod1/Interface/*.h'
-s.public_header_files = 'DevPod1/**/*.h'
+    s.public_header_files = 'DevPod1/**/*.h'
     s.frameworks = 'UIKit'
     s.dependency 'AFNetworking'
 end

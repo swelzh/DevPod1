@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "DevPod1/**/*.{h,m}",
-  "vendored_libraries": "DevPod1/Resources/Libs/**/*.a",
+  "vendored_libraries": "DevPod1/Classes/Libs/**/*.a",
   "public_header_files": "DevPod1/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
